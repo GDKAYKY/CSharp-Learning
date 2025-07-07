@@ -6,6 +6,9 @@ using FormatDisplay;
 using PrintLiteralValues;
 using SetupVariables;
 using DisplayLiteralandVariables;
+using ImplicitDataConversion;
+using MathOperations;
+using IncrementValues;
 
 namespace Program
 {
@@ -16,7 +19,7 @@ namespace Program
         // Get started with C#
             
             {
-                //Write your first C# code
+                // Write your first C# code
                     Unit2Class.Unit2Method(args);
 
                         Console.WriteLine("\n");
@@ -29,7 +32,7 @@ namespace Program
 
                         Console.WriteLine("\n");
 
-                //Store and retrieve data using literal and variable values in C#
+                // Store and retrieve data using literal and variable values in C#
 
                     PrintLiteralValuesClass.PrintLiteralValuesMethod(args);
 
@@ -43,7 +46,7 @@ namespace Program
 
                         Console.WriteLine("\n");
                         
-                //Perform basic string formatting in C#
+                // Perform basic string formatting in C#
 
                     StringInterpolationClass.StringInterpolationMethod(args);
 
@@ -51,7 +54,22 @@ namespace Program
 
                     FormatDisplayClass.FormatDisplayMethod(args);
 
-                        Console.WriteLine("\n");    
+                        Console.WriteLine("\n");   
+
+                // Perform basic operations on numbers in C#
+
+                    ImplicitDataConversionClass.ImplicitDataConversionMethod(args);
+
+                        Console.WriteLine("\n");
+
+                    MathOperationsClass.MathOperationsMethod(args);
+
+                        Console.WriteLine("\n");
+
+                    IncrementValuesClass.IncrementValuesMethod(args);
+
+                        Console.WriteLine("\n");
+
             }
 
     }
