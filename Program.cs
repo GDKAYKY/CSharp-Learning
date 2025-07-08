@@ -9,7 +9,8 @@ using DisplayLiteralandVariables;
 using ImplicitDataConversion;
 using MathOperations;
 using IncrementValues;
-using StudentGrades;
+using StudentGrades; 
+using CallNETClassMethods;
 
 namespace Program
 {
@@ -20,7 +21,7 @@ namespace Program
         // Get started with C#
             
             {
-                // Write your first C# code
+            /*    // Write your first C# code
                     Unit2Class.Unit2Method(args);
 
                         Console.WriteLine("\n");
@@ -75,9 +76,16 @@ namespace Program
 
                     Console.WriteLine("------------Separador-----------");
 
-            StudentGradesClass.StudentGradesMethod(args);
+                StudentGradesClass.StudentGradesMethod(args);
 
-                
+                */
+
+
+            // Create and Run Simple C# Console Applications
+
+                CallNETClass.CallNETMethod(args);
+                CallNETClass.Mathchallenge(args);
+
             }
 
     }
