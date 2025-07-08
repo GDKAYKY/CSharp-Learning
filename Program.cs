@@ -9,6 +9,7 @@ using DisplayLiteralandVariables;
 using ImplicitDataConversion;
 using MathOperations;
 using IncrementValues;
+using StudentGrades;
 
 namespace Program
 {
@@ -70,6 +71,13 @@ namespace Program
 
                         Console.WriteLine("\n");
 
+                // Calculo e impressão de notas de alunos
+
+                    Console.WriteLine("------------Separador-----------");
+
+            StudentGradesClass.StudentGradesMethod(args);
+
+                
             }
 
     }

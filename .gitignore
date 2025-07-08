@@ -418,3 +418,4 @@ FodyWeavers.xsd
 *.msp
 /obj
 /bin
+/.vscode
