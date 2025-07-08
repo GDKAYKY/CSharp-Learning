@@ -11,6 +11,8 @@ using MathOperations;
 using IncrementValues;
 using StudentGrades; 
 using CallNETClassMethods;
+using DesicionLogic;
+using ArrayForeachDataSequences;
 
 namespace Program
 {
@@ -85,8 +87,13 @@ namespace Program
 
                 CallNETClass.CallNETMethod(args);
                 CallNETClass.Mathchallenge(args);
-
+                // Create decision logic with if statements full module
+                    DesicionLogicClass.DecisionLogicMethod(args);
+                
+                // Store and iterate through sequences of data using Arrays and the foreach statement in C#
+                    ArrayForeachDataSequencesClass.ArrayBasics(args);
             }
+
 
     }
 }
