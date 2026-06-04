@@ -9,7 +9,7 @@ using DisplayLiteralandVariables;
 using ImplicitDataConversion;
 using MathOperations;
 using IncrementValues;
-using StudentGrades; 
+using StudentGrades;
 using CallNETClassMethods;
 using DesicionLogic;
 using ArrayForeachDataSequences;
@@ -21,8 +21,8 @@ namespace Program
         static void Main(string[] args)
 
         // Get started with C#
-            
-            {
+
+        {
             /*    // Write your first C# code
                     Unit2Class.Unit2Method(args);
 
@@ -85,14 +85,14 @@ namespace Program
 
             // Create and Run Simple C# Console Applications
 
-                CallNETClass.CallNETMethod(args);
-                CallNETClass.Mathchallenge(args);
-                // Create decision logic with if statements full module
-                    DesicionLogicClass.DecisionLogicMethod(args);
-                
-                // Store and iterate through sequences of data using Arrays and the foreach statement in C#
-                    ArrayForeachDataSequencesClass.ArrayBasics(args);
-            }
+            //CallNETClass.CallNETMethod(args);
+            //CallNETClass.Mathchallenge(args);
+            // Create decision logic with if statements full module
+            //DesicionLogicClass.DecisionLogicMethod(args);
+
+            // Store and iterate through sequences of data using Arrays and the foreach statement in C#
+            //ArrayForeachDataSequencesClass.ArrayBasics(args);
+        }
 
 
     }
